@@ -1,0 +1,1032 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VELOCITY | Exotic & Luxury Car Rental Concierge</title>
+  <meta name="description" content="Rent the world's most prestigious supercars, luxury SUVs, and electric hyper-cruisers with white-glove doorstep delivery and zero deposit options.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Ambient Glow Lighting -->
+  <div class="ambient-glow"></div>
+
+  <!-- ===================================================================
+       HEADER & NAVIGATION
+       =================================================================== -->
+  <header class="navbar" id="main-navbar">
+    <div class="container nav-container">
+      <a href="#hero" class="brand-logo" id="nav-brand-logo">
+        <div class="brand-symbol">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+          </svg>
+        </div>
+        <div class="brand-title">
+          <span class="logo-main">VELOCITY</span>
+          <span class="logo-sub">EXOTIC FLEET & CONCIERGE</span>
+        </div>
+      </a>
+
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#hero" class="nav-link active">Home</a></li>
+          <li><a href="#fleet" class="nav-link">The Fleet</a></li>
+          <li><a href="#features" class="nav-link">Concierge Perks</a></li>
+          <li><a href="#how-it-works" class="nav-link">Experience</a></li>
+          <li><a href="#faq" class="nav-link">FAQ</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <!-- Currency Selector -->
+        <div class="currency-select-wrap">
+          <select id="currency-select" class="currency-select" title="Change Currency">
+            <option value="USD">USD ($)</option>
+            <option value="EUR">EUR (€)</option>
+            <option value="GBP">GBP (£)</option>
+            <option value="AED">AED (د.إ)</option>
+          </select>
+          <span class="currency-arrow">▼</span>
+        </div>
+
+        <!-- Wishlist Button -->
+        <button class="icon-btn-counter" id="btn-open-wishlist" title="View Saved Cars">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+          </svg>
+          <span class="badge-counter" id="wishlist-badge-count">0</span>
+        </button>
+
+        <!-- My Bookings Button -->
+        <button class="icon-btn-counter" id="btn-open-bookings" title="My Reservations">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+            <line x1="16" y1="2" x2="16" y2="6"></line>
+            <line x1="8" y1="2" x2="8" y2="6"></line>
+            <line x1="3" y1="10" x2="21" y2="10"></line>
+          </svg>
+          <span class="badge-counter" id="bookings-badge-count">0</span>
+        </button>
+
+        <a href="#fleet" class="btn-primary" id="btn-nav-reserve">
+          <span>Explore Fleet</span>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===================================================================
+       HERO SECTION
+       =================================================================== -->
+  <section class="hero" id="hero">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <div class="hero-tag">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <circle cx="12" cy="12" r="10"></circle>
+            <polyline points="12 6 12 12 16 14"></polyline>
+          </svg>
+          Instant White-Glove Tarmac & Hotel Delivery
+        </div>
+
+        <h1 class="hero-title">
+          Drive The <span class="text-gradient-gold">Extraordinary.</span>
+        </h1>
+
+        <p class="hero-description">
+          Experience automotive perfection. Select from our exclusive fleet of prestige supercars, bespoke grand tourers, and executive SUVs. Guaranteed exact models, zero deposit options, and 24/7 dedicated concierge.
+        </p>
+
+        <div class="hero-highlights">
+          <div class="highlight-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+              <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+            <span>Guaranteed Exact Model</span>
+          </div>
+          <div class="highlight-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+              <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+            <span>Zero Deposit Available</span>
+          </div>
+          <div class="highlight-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+              <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+            <span>Free 24h Cancellation</span>
+          </div>
+        </div>
+
+        <div style="display: flex; gap: 1rem; align-items: center; flex-wrap: wrap;">
+          <a href="#fleet" class="btn-primary" style="padding: 1rem 2.2rem; font-size: 1.05rem;">
+            <span>Browse All 12 Vehicles</span>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </a>
+          <button class="btn-secondary" id="btn-hero-quick-demo" style="padding: 1rem 1.8rem; font-size: 1.05rem;">
+            <span>Featured: Porsche GT3 RS</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Hero Visual Showcase -->
+      <div class="hero-visual">
+        <div class="hero-car-card" id="hero-feature-card">
+          <div class="hero-floating-badge">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+              <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+            </svg>
+            <span>Featured of the Month</span>
+          </div>
+          <img src="https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?auto=format&fit=crop&w=1200&q=80" alt="Porsche 911 GT3 RS" id="hero-car-img" loading="eager">
+          <div class="hero-car-overlay">
+            <div class="hero-car-info">
+              <h3>Porsche 911 GT3 RS</h3>
+              <p>518 HP • 0-60 in 3.0s • Track Aero</p>
+            </div>
+            <div class="hero-car-price">
+              <div class="rate" id="hero-price-display">$850</div>
+              <span>/ day</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Floating Stat Ticker -->
+        <div class="hero-floating-stat">
+          <div class="stat-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+            </svg>
+          </div>
+          <div class="stat-info">
+            <div class="stat-num">450+ Vehicles</div>
+            <div class="stat-lbl">Delivered across 8 premier hubs</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================================================================
+       QUICK BOOKING SEARCH DOCK
+       =================================================================== -->
+  <section class="booking-widget-section">
+    <div class="container">
+      <div class="booking-dock">
+        <form class="booking-form" id="quick-search-form">
+          <!-- Pick-up Location -->
+          <div class="form-group">
+            <label class="form-label" for="search-pickup-loc">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+              Pick-up Location
+            </label>
+            <div class="form-control-wrap">
+              <select id="search-pickup-loc" class="form-select">
+                <option value="lax">Los Angeles - LAX VIP Terminal</option>
+                <option value="beverly">Beverly Hills Flagship Showroom</option>
+                <option value="jfk">New York - JFK Terminal 4 Concierge</option>
+                <option value="manhattan">Manhattan Hudson Yards Lounge</option>
+                <option value="mia">Miami International VIP Valet</option>
+                <option value="southbeach">South Beach Ocean Drive Hub</option>
+                <option value="dxb">Dubai International Airport T3</option>
+                <option value="lhr">London Heathrow VIP Windsor Suite</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- Pick-up Date -->
+          <div class="form-group">
+            <label class="form-label" for="search-start-date">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                <line x1="16" y1="2" x2="16" y2="6"></line>
+                <line x1="8" y1="2" x2="8" y2="6"></line>
+                <line x1="3" y1="10" x2="21" y2="10"></line>
+              </svg>
+              Pick-up Date
+            </label>
+            <div class="form-control-wrap">
+              <input type="date" id="search-start-date" class="form-input" required>
+            </div>
+          </div>
+
+          <!-- Return Date -->
+          <div class="form-group">
+            <label class="form-label" for="search-end-date">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 16 14"></polyline>
+              </svg>
+              Return Date
+            </label>
+            <div class="form-control-wrap">
+              <input type="date" id="search-end-date" class="form-input" required>
+            </div>
+          </div>
+
+          <!-- Vehicle Category -->
+          <div class="form-group">
+            <label class="form-label" for="search-category-select">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="1" y="4" width="22" height="16" rx="2" ry="2"></rect>
+                <line x1="1" y1="10" x2="23" y2="10"></line>
+              </svg>
+              Category
+            </label>
+            <div class="form-control-wrap">
+              <select id="search-category-select" class="form-select">
+                <option value="all">All Fleet (12 Models)</option>
+                <option value="supercar">Supercars & Exotics</option>
+                <option value="suv">Luxury SUVs</option>
+                <option value="electric">Electric Hypercars</option>
+                <option value="convertible">Convertibles & Spyders</option>
+                <option value="sedan">Executive Sedans</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- Action Button -->
+          <button type="submit" class="btn-primary widget-search-btn" id="btn-find-cars">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+            <span>Find Vehicles</span>
+          </button>
+        </form>
+
+        <!-- Trust Badges Strip -->
+        <div class="trust-metrics-strip">
+          <div class="metric-item">
+            <div class="metric-circle">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+              </svg>
+            </div>
+            <div class="metric-text">
+              <strong>Comprehensive Insurance</strong>
+              <span>Tier-1 coverage with zero excess</span>
+            </div>
+          </div>
+
+          <div class="metric-item">
+            <div class="metric-circle">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+                <line x1="16" y1="13" x2="8" y2="13"></line>
+                <line x1="16" y1="17" x2="8" y2="17"></line>
+              </svg>
+            </div>
+            <div class="metric-text">
+              <strong>Zero Hidden Charges</strong>
+              <span>Taxes, standard miles & cleaning included</span>
+            </div>
+          </div>
+
+          <div class="metric-item">
+            <div class="metric-circle">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+              </svg>
+            </div>
+            <div class="metric-text">
+              <strong>Doorstep Delivery</strong>
+              <span>Airport tarmac or private villa handover</span>
+            </div>
+          </div>
+
+          <div class="metric-item">
+            <div class="metric-circle">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+              </svg>
+            </div>
+            <div class="metric-text">
+              <strong>4.98 / 5 Client Rating</strong>
+              <span>Over 1,200 verified VIP reviews</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================================================================
+       THE FLEET SHOWCASE & DYNAMIC FILTERS
+       =================================================================== -->
+  <section class="fleet-section" id="fleet">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">OUR CURATED FLEET</span>
+        <h2 class="section-title">The World's Finest Machines</h2>
+        <p class="section-desc">
+          Every vehicle in our collection is maintained in pristine showroom condition, loaded with factory performance packages, and ready for prompt dispatch.
+        </p>
+      </div>
+
+      <!-- Live Filter Dock -->
+      <div class="filter-bar">
+        <div class="filter-top-row">
+          <!-- Text Search Field -->
+          <div class="search-input-wrap">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+            <input type="text" id="filter-keyword-input" class="search-field" placeholder="Search by model, make, or badge (e.g. Porsche, Tesla, V12)...">
+          </div>
+
+          <!-- Sort Select -->
+          <div class="sort-group">
+            <label for="filter-sort-select">Sort by:</label>
+            <select id="filter-sort-select" class="sort-select">
+              <option value="featured">Featured / Recommended</option>
+              <option value="price-asc">Price: Low to High</option>
+              <option value="price-desc">Price: High to Low</option>
+              <option value="power-desc">Horsepower (Highest first)</option>
+              <option value="rating-desc">Highest Rated (5.0★)</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Category Tabs -->
+        <div class="category-tabs" id="category-pills-list">
+          <button class="category-pill active" data-category="all">All Fleet (12)</button>
+          <button class="category-pill" data-category="supercar">Supercars</button>
+          <button class="category-pill" data-category="suv">Luxury SUVs</button>
+          <button class="category-pill" data-category="electric">Electric Hypercars</button>
+          <button class="category-pill" data-category="convertible">Convertibles</button>
+          <button class="category-pill" data-category="sedan">Executive Sedans</button>
+        </div>
+
+        <!-- Secondary Filters Row -->
+        <div class="filter-secondary-row">
+          <div class="filter-chips">
+            <!-- Transmission Filter -->
+            <select id="filter-transmission-select" class="filter-chip-select">
+              <option value="all">Transmission: All</option>
+              <option value="pdk">Automatic / PDK</option>
+              <option value="direct">Direct Drive (EV)</option>
+            </select>
+
+            <!-- Fuel Filter -->
+            <select id="filter-fuel-select" class="filter-chip-select">
+              <option value="all">Engine: All Types</option>
+              <option value="gasoline">Gasoline V8/V10/V12</option>
+              <option value="electric">100% Electric (EV)</option>
+            </select>
+
+            <button class="btn-secondary" id="btn-reset-filters" style="padding: 0.5rem 0.9rem; font-size: 0.85rem;">
+              <span>Reset Filters</span>
+            </button>
+          </div>
+
+          <!-- Price Range Slider -->
+          <div class="price-range-control">
+            <span>Max Price:</span>
+            <input type="range" id="filter-price-range" min="300" max="2000" step="50" value="2000">
+            <strong id="price-range-val" style="color: var(--accent-gold); min-width: 70px;">$2,000/day</strong>
+          </div>
+
+          <div class="cars-count-indicator">
+            Showing <strong id="visible-cars-count">12</strong> of 12 Vehicles
+          </div>
+        </div>
+      </div>
+
+      <!-- Cars Grid Container (Populated via JS) -->
+      <div class="cars-grid" id="cars-grid-container">
+        <!-- Rendered dynamically -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================================================================
+       FLOATING COMPARISON DOCK
+       =================================================================== -->
+  <div class="compare-dock" id="comparison-dock">
+    <div class="compare-dock-label">Compare (2 Max):</div>
+    <div class="compare-dock-items" id="compare-slots-container">
+      <!-- Injected dynamically -->
+    </div>
+    <button class="btn-primary" id="btn-launch-comparison" style="padding: 0.5rem 1.2rem; font-size: 0.85rem;">
+      Compare Specs
+    </button>
+    <button class="compare-clear-btn" id="btn-clear-comparison">Clear</button>
+  </div>
+
+  <!-- ===================================================================
+       CONCIERGE PERKS & WHY VELOCITY
+       =================================================================== -->
+  <section class="features-section" id="features">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">THE VELOCITY ADVANTAGE</span>
+        <h2 class="section-title">Beyond Ordinary Car Hire</h2>
+        <p class="section-desc">
+          We treat every rental as a tailored hospitality experience, ensuring unmatched privacy, speed, and discretion.
+        </p>
+      </div>
+
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon-box">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+            </svg>
+          </div>
+          <h3>Guaranteed Exact Model</h3>
+          <p>Unlike conventional agencies that offer "or similar", the specific chassis, trim, and color you select is the exact vehicle waiting for you.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon-box">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+            </svg>
+          </div>
+          <h3>Zero Liability Protection</h3>
+          <p>Choose our Royal Concierge plan for complete peace of mind with 0 security deposit and zero deductible liability across all regions.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon-box">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"></circle>
+              <polyline points="12 6 12 12 14 14"></polyline>
+            </svg>
+          </div>
+          <h3>24/7 Roadside Concierge</h3>
+          <p>Our dedicated support team is available round-the-clock via instant WhatsApp or satellite dispatch. Replacement car ready in under 60 mins.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon-box">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+          </div>
+          <h3>Anywhere Delivery & Pick-up</h3>
+          <p>Have your supercar waiting directly at the private jet FBO apron, luxury hotel valet, or beachfront residence without waiting in line.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon-box">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+              <line x1="8" y1="21" x2="16" y2="21"></line>
+              <line x1="12" y1="17" x2="12" y2="21"></line>
+            </svg>
+          </div>
+          <h3>Digital Smartphone Key</h3>
+          <p>Unlock, start, and pre-condition climate straight from your phone with optional biometric digital keyless integration.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon-box">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+              <circle cx="12" cy="7" r="4"></circle>
+            </svg>
+          </div>
+          <h3>Chauffeur On-Demand</h3>
+          <p>Need a rest? Switch seamlessly between self-drive and professional executive chauffeur service with our vetted drivers.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================================================================
+       HOW IT WORKS (EXPERIENCE)
+       =================================================================== -->
+  <section class="how-it-works-section" id="how-it-works">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">EFFORTLESS PROCESS</span>
+        <h2 class="section-title">How To Reserve Your Supercar</h2>
+        <p class="section-desc">From browse to keys in your hand in under three seamless digital steps.</p>
+      </div>
+
+      <div class="steps-row">
+        <div class="step-card">
+          <div class="step-number">01</div>
+          <div class="step-icon-wrap">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <circle cx="12" cy="12" r="10"></circle>
+              <circle cx="12" cy="12" r="3"></circle>
+            </svg>
+          </div>
+          <h3>Select Your Vehicle</h3>
+          <p>Browse our verified live inventory, compare performance figures, and choose your preferred delivery city or airport hub.</p>
+        </div>
+
+        <div class="step-card">
+          <div class="step-number">02</div>
+          <div class="step-icon-wrap">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+            </svg>
+          </div>
+          <h3>Customize Protection & Extras</h3>
+          <p>Choose your preferred insurance waiver tier, add secondary drivers or Wi-Fi hotspot, and review transparent itemized costs.</p>
+        </div>
+
+        <div class="step-card">
+          <div class="step-number">03</div>
+          <div class="step-icon-wrap">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+            </svg>
+          </div>
+          <h3>Instant Handover & Drive</h3>
+          <p>Receive your instant digital voucher with QR code. Our valet meets you directly at your chosen drop-point with keys and detailed vehicle briefing.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================================================================
+       TESTIMONIALS
+       =================================================================== -->
+  <section class="testimonials-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">VERIFIED CLIENTS</span>
+        <h2 class="section-title">Trusted By Drivers Worldwide</h2>
+        <p class="section-desc">What our discerning clientele say about the VELOCITY rental experience.</p>
+      </div>
+
+      <div class="reviews-grid">
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-quote">"Rented the Ferrari F8 Tributo for a coastal weekend in Malibu. The car was spotless, handed over right outside LAX private terminal in 4 minutes flat. Unbeatable service."</p>
+          <div class="review-author">
+            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=120&q=80" alt="Sarah J." class="review-avatar">
+            <div class="author-info">
+              <strong>Elena Rostova</strong>
+              <span>Fashion Director • Los Angeles</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-quote">"The Rolls-Royce Ghost was impeccable for our corporate summit in Manhattan. Flawless suspension, zero hassle with deposits, and the concierge was always a text away."</p>
+          <div class="review-author">
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=120&q=80" alt="Marcus T." class="review-avatar">
+            <div class="author-info">
+              <strong>Marcus Sterling</strong>
+              <span>Managing Partner • New York</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-quote">"Booked the GT3 RS for a drive through Dubai to Jebel Jais. The track setup and Weissach carbon trim was unreal. Velocity is the only luxury rental company I trust."</p>
+          <div class="review-author">
+            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=120&q=80" alt="Tariq A." class="review-avatar">
+            <div class="author-info">
+              <strong>Tariq Al-Mansoor</strong>
+              <span>Tech Entrepreneur • Dubai</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================================================================
+       FREQUENTLY ASKED QUESTIONS (ACCORDION)
+       =================================================================== -->
+  <section class="faq-section" id="faq">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">NEED ASSISTANCE?</span>
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <p class="section-desc">Everything you need to know about requirements, deposits, and insurance.</p>
+      </div>
+
+      <div class="faq-container">
+        <div class="faq-item open">
+          <button class="faq-header" type="button">
+            <h4>What documents are required to rent a supercar?</h4>
+            <span class="faq-chevron">▼</span>
+          </button>
+          <div class="faq-content">
+            You will need a valid driver's license (held for at least 2 years), a valid passport or national ID card, and a major credit card. International visitors can drive using their native valid driver's license alongside an International Driving Permit (IDP) if their license is not in English.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-header" type="button">
+            <h4>What is the minimum age to rent with VELOCITY?</h4>
+            <span class="faq-chevron">▼</span>
+          </button>
+          <div class="faq-content">
+            The minimum age to rent supercars like the Ferrari F8 or McLaren 720S is 25 years old. For select executive SUVs and sports sedans (such as the BMW M4 or Range Rover), drivers aged 21 and above are eligible with our young driver waiver.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-header" type="button">
+            <h4>How does the security deposit work?</h4>
+            <span class="faq-chevron">▼</span>
+          </button>
+          <div class="faq-content">
+            A temporary pre-authorization is placed on your card at pickup and is automatically released immediately upon safe vehicle return. Alternatively, guests selecting our "Royal Concierge VIP" package can take advantage of $0 security deposit eligibility!
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-header" type="button">
+            <h4>Can you deliver the car directly to my private villa or airport terminal?</h4>
+            <span class="faq-chevron">▼</span>
+          </button>
+          <div class="faq-content">
+            Yes! We offer 24/7 white-glove delivery to private FBO air terminals (LAX, JFK, MIA, DXB, LHR), luxury hotels, and private residences. Our concierge valets coordinate directly with your flight arrival time.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-header" type="button">
+            <h4>What is the cancellation policy?</h4>
+            <span class="faq-chevron">▼</span>
+          </button>
+          <div class="faq-content">
+            We offer 100% free cancellation with full refund up to 24 hours prior to your scheduled booking pickup time. Changes to dates or vehicle model are also free of charge subject to availability.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================================================================
+       FOOTER
+       =================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="brand-logo">
+            <div class="brand-symbol">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+              </svg>
+            </div>
+            <div class="brand-title">
+              <span class="logo-main">VELOCITY</span>
+              <span class="logo-sub">EXOTIC FLEET</span>
+            </div>
+          </div>
+          <p>
+            The world’s most distinguished luxury automotive rental service. Precision, performance, and bespoke hospitality across major global metropolitan centers.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">The Fleet</h4>
+          <ul class="footer-nav">
+            <li><a href="#fleet" onclick="filterByCategory('supercar')">Supercars & Exotics</a></li>
+            <li><a href="#fleet" onclick="filterByCategory('suv')">Luxury Prestige SUVs</a></li>
+            <li><a href="#fleet" onclick="filterByCategory('electric')">Electric Hyper-Performance</a></li>
+            <li><a href="#fleet" onclick="filterByCategory('convertible')">Convertibles & Spyders</a></li>
+            <li><a href="#fleet" onclick="filterByCategory('sedan')">Executive Sedans</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">VIP Concierge</h4>
+          <ul class="footer-nav">
+            <li><a href="#hero">Airport FBO Meet & Greet</a></li>
+            <li><a href="#features">Chauffeur Drive Services</a></li>
+            <li><a href="#features">Zero-Deposit Club</a></li>
+            <li><a href="#faq">Corporate Accounts</a></li>
+            <li><a href="#faq">Rental Requirements</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">VIP Club Exclusive</h4>
+          <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 0.75rem;">
+            Join our private members club for priority allocations and 15% off your maiden booking.
+          </p>
+          <form class="newsletter-form" id="newsletter-form">
+            <input type="email" class="newsletter-input" placeholder="Your executive email..." required>
+            <button type="submit" class="btn-primary" style="padding: 0 1.25rem;">Join</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 VELOCITY Exotic Rentals LLC. All rights reserved. Worldwide Luxury Transportation.</div>
+        <div style="display: flex; gap: 1.5rem;">
+          <a href="#">Privacy Protocol</a>
+          <a href="#">Terms of Hire</a>
+          <a href="#">Insurance Disclosures</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===================================================================
+       VEHICLE DETAILS MODAL
+       =================================================================== -->
+  <div class="modal-overlay" id="car-detail-modal">
+    <div class="modal-card">
+      <button class="modal-close-btn" id="btn-close-detail-modal" title="Close">✕</button>
+      <div class="detail-modal-grid" id="detail-modal-content">
+        <!-- Rendered dynamically -->
+      </div>
+    </div>
+  </div>
+
+  <!-- ===================================================================
+       VEHICLE COMPARISON MODAL
+       =================================================================== -->
+  <div class="modal-overlay" id="compare-modal">
+    <div class="modal-card" style="max-width: 950px;">
+      <button class="modal-close-btn" id="btn-close-compare-modal" title="Close">✕</button>
+      <div style="padding: 2.25rem;" id="compare-modal-content">
+        <!-- Rendered dynamically -->
+      </div>
+    </div>
+  </div>
+
+  <!-- ===================================================================
+       INTERACTIVE MULTI-STEP BOOKING MODAL
+       =================================================================== -->
+  <div class="modal-overlay" id="booking-modal">
+    <div class="modal-card" style="max-width: 820px;">
+      <button class="modal-close-btn" id="btn-close-booking-modal" title="Close">✕</button>
+      
+      <div class="booking-wizard-body">
+        <!-- Wizard Steps Indicator -->
+        <div class="wizard-steps-indicator">
+          <div class="wizard-step-node active" id="wizard-node-1">
+            <div class="step-circle">1</div>
+            <div class="step-label">Trip Schedule</div>
+          </div>
+          <div class="wizard-step-node" id="wizard-node-2">
+            <div class="step-circle">2</div>
+            <div class="step-label">Protection</div>
+          </div>
+          <div class="wizard-step-node" id="wizard-node-3">
+            <div class="step-circle">3</div>
+            <div class="step-label">Extras</div>
+          </div>
+          <div class="wizard-step-node" id="wizard-node-4">
+            <div class="step-circle">4</div>
+            <div class="step-label">Driver & Pay</div>
+          </div>
+        </div>
+
+        <!-- Selected Vehicle Summary Header -->
+        <div class="booking-car-summary-header" id="booking-selected-car-header">
+          <!-- Dynamically populated -->
+        </div>
+
+        <!-- STEP 1: DATES & LOCATION -->
+        <div class="wizard-content-pane active" id="wizard-step-1">
+          <h3 style="font-family: var(--font-heading); margin-bottom: 1.25rem; font-size: 1.35rem;">1. Itinerary & Handover Details</h3>
+          
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1.25rem;">
+            <div class="form-group">
+              <label class="form-label" for="booking-pickup-loc">Pick-up Location</label>
+              <select id="booking-pickup-loc" class="form-select">
+                <!-- Populated via JS -->
+              </select>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="booking-dropoff-loc">Return Location</label>
+              <select id="booking-dropoff-loc" class="form-select">
+                <!-- Populated via JS -->
+              </select>
+            </div>
+          </div>
+
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1.5rem;">
+            <div class="form-group">
+              <label class="form-label" for="booking-pickup-date">Pick-up Date</label>
+              <input type="date" id="booking-pickup-date" class="form-input" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="booking-return-date">Return Date</label>
+              <input type="date" id="booking-return-date" class="form-input" required>
+            </div>
+          </div>
+
+          <div style="display: flex; justify-content: flex-end; margin-top: 2rem;">
+            <button class="btn-primary" id="btn-wizard-step1-next">
+              <span>Continue to Protection</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <!-- STEP 2: PROTECTION PLAN -->
+        <div class="wizard-content-pane" id="wizard-step-2">
+          <h3 style="font-family: var(--font-heading); margin-bottom: 0.5rem; font-size: 1.35rem;">2. Select Protection Level</h3>
+          <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 1.25rem;">All plans include certified 24/7 emergency dispatch and roadside recovery.</p>
+
+          <div class="plans-selection-grid" id="protection-plans-container">
+            <!-- Dynamically populated from PROTECTION_PLANS -->
+          </div>
+
+          <div style="display: flex; justify-content: space-between; margin-top: 2rem;">
+            <button class="btn-secondary" id="btn-wizard-step2-prev">Back</button>
+            <button class="btn-primary" id="btn-wizard-step2-next">
+              <span>Continue to Add-ons</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <!-- STEP 3: OPTIONAL ADD-ONS -->
+        <div class="wizard-content-pane" id="wizard-step-3">
+          <h3 style="font-family: var(--font-heading); margin-bottom: 0.5rem; font-size: 1.35rem;">3. VIP Add-ons & Equipment</h3>
+          <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 1.25rem;">Tailor your journey with executive amenities.</p>
+
+          <div class="addons-checklist" id="addons-list-container">
+            <!-- Dynamically populated from ADDONS -->
+          </div>
+
+          <div style="display: flex; justify-content: space-between; margin-top: 2rem;">
+            <button class="btn-secondary" id="btn-wizard-step3-prev">Back</button>
+            <button class="btn-primary" id="btn-wizard-step3-next">
+              <span>Review & Payment</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <!-- STEP 4: DRIVER DETAILS & PAYMENT -->
+        <div class="wizard-content-pane" id="wizard-step-4">
+          <h3 style="font-family: var(--font-heading); margin-bottom: 1.25rem; font-size: 1.35rem;">4. Driver Verification & Booking Summary</h3>
+
+          <form id="booking-final-form">
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1rem;">
+              <div class="form-group">
+                <label class="form-label">Full Legal Name *</label>
+                <input type="text" id="driver-name" class="form-input" placeholder="e.g. Alexander Hamilton" required>
+              </div>
+              <div class="form-group">
+                <label class="form-label">Email Address *</label>
+                <input type="email" id="driver-email" class="form-input" placeholder="alex@domain.com" required>
+              </div>
+            </div>
+
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1.5rem;">
+              <div class="form-group">
+                <label class="form-label">Phone / WhatsApp *</label>
+                <input type="tel" id="driver-phone" class="form-input" placeholder="+1 (555) 000-0000" required>
+              </div>
+              <div class="form-group">
+                <label class="form-label">Driver Age</label>
+                <select id="driver-age" class="form-select">
+                  <option value="25+">25 Years or older</option>
+                  <option value="21-24">21 - 24 Years (Young driver waiver applied)</option>
+                </select>
+              </div>
+            </div>
+
+            <!-- Price Breakdown Box -->
+            <div class="order-calculation-card" id="pricing-breakdown-box">
+              <!-- Dynamically computed -->
+            </div>
+
+            <!-- Promo Code Input -->
+            <div class="promo-box">
+              <input type="text" id="promo-code-input" class="promo-input" placeholder="Enter coupon code (try VELOCITY10 or VIP20)">
+              <button type="button" class="btn-secondary promo-btn" id="btn-apply-promo">Apply Code</button>
+            </div>
+            <div id="promo-status-msg" style="font-size: 0.8rem; margin-top: 0.4rem;"></div>
+
+            <!-- Payment Method Simulator -->
+            <div style="margin-top: 1.5rem;">
+              <label class="form-label" style="margin-bottom: 0.5rem;">Payment Method</label>
+              <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.75rem;">
+                <label style="border: 1px solid var(--border-glass); padding: 0.75rem; border-radius: var(--radius-sm); display: flex; align-items: center; gap: 0.5rem; cursor: pointer; background: rgba(255,255,255,0.03);">
+                  <input type="radio" name="payment-method" value="card" checked>
+                  <span style="font-size: 0.85rem; font-weight: 600;">Credit / Debit Card</span>
+                </label>
+                <label style="border: 1px solid var(--border-glass); padding: 0.75rem; border-radius: var(--radius-sm); display: flex; align-items: center; gap: 0.5rem; cursor: pointer; background: rgba(255,255,255,0.03);">
+                  <input type="radio" name="payment-method" value="applepay">
+                  <span style="font-size: 0.85rem; font-weight: 600;">Apple / Google Pay</span>
+                </label>
+                <label style="border: 1px solid var(--border-glass); padding: 0.75rem; border-radius: var(--radius-sm); display: flex; align-items: center; gap: 0.5rem; cursor: pointer; background: rgba(255,255,255,0.03);">
+                  <input type="radio" name="payment-method" value="crypto">
+                  <span style="font-size: 0.85rem; font-weight: 600;">Crypto / Wire</span>
+                </label>
+              </div>
+            </div>
+
+            <div style="display: flex; justify-content: space-between; margin-top: 2rem;">
+              <button type="button" class="btn-secondary" id="btn-wizard-step4-prev">Back</button>
+              <button type="submit" class="btn-primary" id="btn-confirm-rental" style="padding: 0.85rem 2rem;">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span>Authorize & Confirm Reservation</span>
+              </button>
+            </div>
+          </form>
+        </div>
+
+        <!-- STEP 5: CONFIRMATION SUCCESS & VOUCHER -->
+        <div class="wizard-content-pane" id="wizard-step-5">
+          <div style="text-align: center; margin-bottom: 1.5rem;">
+            <div style="width: 60px; height: 60px; border-radius: 50%; background: rgba(16, 185, 129, 0.15); border: 2px solid var(--accent-green); display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem auto; color: var(--accent-green);">
+              <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+            </div>
+            <h2 style="font-family: var(--font-heading); font-size: 1.8rem; color: #fff;">Reservation Confirmed!</h2>
+            <p style="color: var(--text-muted); font-size: 0.95rem;">Your dream vehicle has been reserved and your concierge has been notified.</p>
+          </div>
+
+          <div class="voucher-receipt-box" id="confirmation-voucher-content">
+            <!-- Dynamically populated -->
+          </div>
+
+          <div style="display: flex; justify-content: center; gap: 1rem; margin-top: 1.5rem;">
+            <button class="btn-secondary" id="btn-print-voucher">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="6 9 6 2 18 2 18 9"></polyline>
+                <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
+                <rect x="6" y="14" width="12" height="8"></rect>
+              </svg>
+              <span>Print / Save Voucher</span>
+            </button>
+            <button class="btn-primary" id="btn-finish-booking">
+              <span>View In My Bookings</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===================================================================
+       SIDE DRAWER: MY BOOKINGS
+       =================================================================== -->
+  <div class="drawer-overlay" id="drawer-overlay"></div>
+  <aside class="side-drawer" id="bookings-drawer">
+    <div class="drawer-header">
+      <h3 style="font-family: var(--font-heading); font-size: 1.3rem;">My Reservations</h3>
+      <button class="modal-close-btn" id="btn-close-bookings-drawer" style="position: static;">✕</button>
+    </div>
+    <div id="bookings-drawer-list">
+      <!-- Injected dynamically -->
+    </div>
+  </aside>
+
+  <!-- ===================================================================
+       SIDE DRAWER: WISHLIST / SAVED CARS
+       =================================================================== -->
+  <aside class="side-drawer" id="wishlist-drawer">
+    <div class="drawer-header">
+      <h3 style="font-family: var(--font-heading); font-size: 1.3rem;">Saved Wishlist</h3>
+      <button class="modal-close-btn" id="btn-close-wishlist-drawer" style="position: static;">✕</button>
+    </div>
+    <div id="wishlist-drawer-list">
+      <!-- Injected dynamically -->
+    </div>
+  </aside>
+
+  <!-- ===================================================================
+       TOAST NOTIFICATIONS
+       =================================================================== -->
+  <div class="toast-container" id="toast-container"></div>
+
+  <!-- Scripts -->
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
